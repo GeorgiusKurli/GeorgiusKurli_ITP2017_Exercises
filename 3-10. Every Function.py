@@ -1,0 +1,17 @@
+names = ["Oscar", "Tango", "Romeo", "Zulu", "Charlie"]
+print(names[0])
+names.append("Alfa")
+print(names)
+del names[1]
+print(names)
+print(names.pop(1))
+print(names)
+names.remove("Alfa")
+print(names)
+print(sorted(names))
+print(sorted(names, reverse=True))
+names.reverse()
+print(names)
+names.reverse()
+print(names)
+print(len(names))
